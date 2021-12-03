@@ -25,7 +25,7 @@ agent any
                                      }
 			stage('Deploy'){
                                 steps{
-                                    bat 'java -jar C:/ProgramData/Jenkins/.jenkins/workspace/OnlineAdv/target/*.jar'
+                                    bat 'java -jar C:/ProgramData/Jenkins/.jenkins/workspace/OnlineAdv/target/newspaper.advertisement.system-0.0.1-SNAPSHOT.jar'
                         }
                         }
 			
