@@ -40,7 +40,7 @@ public class JwtTokenUtil implements Serializable {
 				.compact();
 	}
 
-	//generate token for RTOOFFICER
+	
 	public String generateAdminToken(Login admin) {
 
 		Claims claims = Jwts.claims();
